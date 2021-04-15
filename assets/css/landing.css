@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* .banner {
+    background-image: url("assets/images/Bannerimage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+.btn-danger {
+    color: #DD5A6A;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, #17EAD9 0%, #6078EA 100%) !important;
+    border-color    : #17EAD9;
+}
+
+#topBriefPoint {
+    background-image: linear-gradient(to right, #2EC4B8 0%, #6078EA 100%) !important;
+    border-radius   : 4px;
+}
+
+.heading {
+    color: #22B78E;
+}
+
+.briefDoc {
+    color: #1D5AA6;
+}
+
+.doc {
+    background-color: #F9F9FF;
+    border-radius   : 4px;
+}
+
+.hrDoc {
+    border: 1px solid #22B78E;
+    width : 37px;
+}
+
+.hrDocLine {
+    border: 1px solid #ECECFF;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.btn-link {
+    color: #1D5AA6;
+}
+
+.signs {
+    background-color: #FFFFFF;
+    border          : 1px solid #E5EAFF;
+    border-radius   : 4px;
+    box-shadow      : 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+}
+
+.testimonials {
+    border-radius: 4px;
+    box-shadow   : 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+}
+
+.btn-appoint {
+    background-color: #004498;
+    border-radius   : 3.81px;
+}
